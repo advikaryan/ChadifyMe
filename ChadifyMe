@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChadifyMe | Height & LooksMaxxing eBooks</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <h1>ChadifyMe</h1>
+    <p>Unlock Your Best Self. Scientifically-Proven Height & LooksMaxxing Guides.</p>
+    <a href="#ebooks" class="cta">Browse eBooks</a>
+  </header>
+
+  <section class="carousel">
+    <img src="book1.jpg" alt="The 6ft 6 Method">
+    <img src="book2.jpg" alt="The Bamboo Method">
+    <img src="book3.jpg" alt="Gumbi Mode">
+    <img src="book4.jpg" alt="Looksmax Guide">
+  </section>
+
+  <section id="ebooks" class="products">
+    <h2>Top-Selling eBooks</h2>
+
+    <div class="book">
+      <img src="book1.jpg" alt="6ft 6 Method">
+      <h3>The 6ft 6 Method</h3>
+      <p>Bone Remodeling, Hormonal Hacking & More</p>
+      <p class="price">₹249 <span class="discount">₹149</span></p>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="book">
+      <img src="book2.jpg" alt="The Bamboo Method">
+      <h3>The Bamboo Method</h3>
+      <p>Explained & How to Enhance Your Height</p>
+      <p class="price">₹299 <span class="discount">₹149</span></p>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="book">
+      <img src="book4.jpg" alt="Looksmax Guide">
+      <h3>Chadmax</h3>
+      <p>Complete LooksMaxxing Guide (306 Pages)</p>
+      <p class="price">₹399 <span class="discount">₹199</span></p>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+  </section>
+
+  <section class="combo">
+    <h2>Combo Offers</h2>
+    <p>Any 2 books: ₹249 | Any 6 books: ₹499 | Any 12 books: ₹899</p>
+    <a href="#" class="combo-btn">Get Combo Deal</a>
+  </section>
+
+  <section class="reviews">
+    <h2>What Customers Say</h2>
+    <p>⭐⭐⭐⭐⭐ "I gained 2 inches after 18. These books changed my life!"</p>
+    <p>⭐⭐⭐⭐⭐ "The LooksMaxxing guide is gold — so detailed and actionable."</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ChadifyMe. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.hero {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.cta {
+  background: #ff5c5c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.carousel img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.products {
+  padding: 2rem 1rem;
+  background: #fff;
+}
+
+.products h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.book {
+  background: #f1f1f1;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.book img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.price {
+  font-weight: bold;
+  color: #555;
+}
+
+.discount {
+  color: #ff5c5c;
+  margin-left: 10px;
+}
+
+.buy-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  background: #0070f3;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.combo {
+  text-align: center;
+  background: #ffe0e0;
+  padding: 2rem 1rem;
+}
+
+.combo-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #ff5c5c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.reviews {
+  padding: 2rem 1rem;
+  background: #fafafa;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | ChadifyMe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="hero">
+    <h1>About ChadifyMe</h1>
+    <p>Empowering Men to Unlock Their Maximum Potential</p>
+  </section>  <section class="products">
+    <h2>Our Mission</h2>
+    <p>
+      At ChadifyMe, we believe every man has untapped potential waiting to be unlocked.
+      Our collection of digital eBooks focuses on height growth, facial aesthetics,
+      testosterone boosting, and complete self-transformation. Everything we create
+      is backed by real research, experience, and a passion for evolution.
+    </p><h2>Why ChadifyMe?</h2>
+<ul>
+  <li>Scientifically-backed eBooks and guides</li>
+  <li>Designed for all ages and body types</li>
+  <li>Instant digital access after purchase</li>
+  <li>Trusted by thousands globally</li>
+</ul>
+
+<h2>Who Is This For?</h2>
+<p>
+  If you’ve ever felt like your appearance is holding you back, or you simply want
+  to become the most elite version of yourself, ChadifyMe is for you. Whether you're
+  a student, office worker, or athlete – our methods can help.
+</p>
+
+<h2>Contact Us</h2>
+<p>Email: support@chadifyme.com<br />Instagram: @chadifyme</p>
+
+  </section>  <footer>
+    &copy; 2025 ChadifyMe. All rights reserved.
+  </footer>
+</body>
+</html>
+
